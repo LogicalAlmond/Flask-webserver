@@ -7,6 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+# Downloads work, but need to read up on multiple files since this function is specified for one file
 @app.route('/download')
 def download_file():
     path = 'files/file1.txt'
