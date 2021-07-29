@@ -9,5 +9,5 @@ def index():
 
 @app.route('/download')
 def download_file():
-    path = '/files/file1.txt'
+    path = 'files/file1.txt'
     return send_file(path, as_attachment=True)
