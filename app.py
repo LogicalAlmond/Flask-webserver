@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/files')
+@app.route('/download')
 def download_file():
     path = "my_file"
     return send_file(path, as_attachment=True)
