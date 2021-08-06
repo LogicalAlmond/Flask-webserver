@@ -1,8 +1,9 @@
+/*background and header set up*/
 body {
-    background: darkslategrey; text-align:center;
-    font-family: "Andale Mono", serif;
+    width: auto; height: auto; background: blanchedalmond; text-align: center;
+    font-family:"Menlo", serif;
 }
- /* unvisited link */
+/* unvisited link */
 a:link {
   color: white;
 }
@@ -20,4 +21,12 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+button{
+    background-color: darkslategrey; border-radius: 12px;
+}
+
+a{
+    font-size: 30px; text-decoration: none;
 }
